@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
+
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -10,7 +11,11 @@
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
 
         <!-- Styles -->
+        <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+        <link href="{{ asset('css/nav.css') }}" rel="stylesheet">
         <style>
+            
+           
             html, body {
                 background-color: #fff;
                 color: #636b6f;
@@ -42,6 +47,8 @@
 
             .content {
                 text-align: center;
+                margin-top: 100px;
+                
             }
 
             .title {
@@ -50,7 +57,7 @@
 
             .links > a {
                 color: #636b6f;
-                padding: 0 25px;
+                padding: 10px 25px;
                 font-size: 13px;
                 font-weight: 600;
                 letter-spacing: .1rem;
@@ -67,38 +74,42 @@
             }
             .event{
                 border: 1px solid black;
-                margin: 50px 50px 50px 50px;
+                margin: 100px 50px 50px 50px;
             }
             .eventname{
 
             }
             .header{
               border:1px solid white;
-              height: 50px;
-              color:;  
+              height: 100px;
+              background-color:#f0f0f5;  
             }
+            .nav{
+                float:right;
+                width:100%;
+                font-size:2em;
+                
+            }
+            
+
         </style>
     </head>
     <body>
-    <div class="header col-12">
-    
-               <h3>     FCL Eventplanner<h3>
-                
-    </div>
-        <div class="flex-center position-ref full-height">
-            @if (Route::has('login'))
-                <div class="top-right links">
-                    @auth
-                        <a href="{{ url('/home') }}">Home</a>
-                    @else
-                        <a href="{{ route('login') }}">Login</a>
-
-                        @if (Route::has('register'))
-                            <a href="{{ route('register') }}">Register</a>
-                        @endif
-                    @endauth
-                </div>
-            @endif
+    <header id="header" class="header">
+        <div class="same"> 
+        <h3 class=""> FCL evenement planner</h3>
+    <nav class="col-12 links nav" style="--items: 5;
+    background-color:#f0f0f5;">
+		<a href="#">Link 1</a>
+		<a href="#">Link 2</a>
+		<a href="#">Link 3</a>
+		<a href="#">Link 4</a>
+		<a href="#">Link 5</a>
+		<span class="line"></span>
+    </nav>
+        </div>
+</header>
+ 
 
             <div class="content">
                
@@ -108,10 +119,8 @@
                     </div>
                 </div>
 
-                <div class="links">
-                    
-                </div>
-            </div>
+               
+           
         </div>
     </body>
 </html>

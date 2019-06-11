@@ -22,4 +22,8 @@ Route::get('beheer', function()
 {
     return view('beheer');
 });
+Route::get('home', function()
+{
+    return view('home');
+});
 

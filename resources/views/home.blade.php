@@ -95,16 +95,24 @@
         </style>
     </head>
     <body>
-   <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+   <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top ">
     <div class="container">
         <div class="same"> 
         <h3 class=""> FCL evenement planner</h3>
- 
-		<a href="#">Link 1</a>
-		<a href="#">Link 2</a>
-		<a href="#">Link 3</a>
-		<a href="#">Link 4</a>
-		<a href="#">Link 5</a>
+        <ul class="nav nav-tabs nav-tabs-dark">
+            <li class="nav-item-dark">
+                 <a class="nav-link active alert-link" href="#">evenement pagina</a>
+            </li>
+             <li class="nav-item-dark">
+                  <a class="nav-link alert-link" href="#">login</a>
+             </li>
+             <li class="nav-item">
+                  <a class="nav-link alert-link" href="#">beheer pagina</a>
+             </li>
+             <li class="nav-item">
+                  <a class="nav-link alert-link" href="#">link</a>
+             </li>
+        </ul>
 		<span class="line"></span>
     </nav>
         </div>
@@ -113,7 +121,7 @@
 
         
                  <!-- Page Content -->
-  <div class="container" style="padding-top: 25px;">
+  <div class="container" style="padding-top: 50px;">
 
 <div class="row">
 
@@ -132,9 +140,8 @@
         <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis aliquid atque, nulla? Quos cum ex quis soluta, a laboriosam. Dicta expedita corporis animi vero voluptate voluptatibus possimus, veniam magni quis!</p>
         <a href="#" class="btn btn-primary">lees meer &rarr;</a>
       </div>
-      <div class="card-footer text-muted">
-            vind plaats op Januari 2020 
-        <a href="#">zie meer over dit</a>
+      <div class="card-footer ">
+          <b>  vind plaats op Januari 2020 </b>
       </div>
     </div>
 
@@ -146,9 +153,8 @@
         <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis aliquid atque, nulla? Quos cum ex quis soluta, a laboriosam. Dicta expedita corporis animi vero voluptate voluptatibus possimus, veniam magni quis!</p>
         <a href="#" class="btn btn-primary">lees meer &rarr;</a>
       </div>
-      <div class="card-footer text-muted">
-            vind plaats op Januari 2020 
-        <a href="#">zie meer over dit</a>
+      <div class="card-footer text-bold">
+          <b>  vind plaats op Januari 2020 </b>
       </div>
     </div>
 
@@ -160,9 +166,8 @@
         <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis aliquid atque, nulla? Quos cum ex quis soluta, a laboriosam. Dicta expedita corporis animi vero voluptate voluptatibus possimus, veniam magni quis!</p>
         <a href="#" class="btn btn-primary">lees meer &rarr;</a>
       </div>
-      <div class="card-footer text-muted">
-            vind plaats op Januari 2020 
-        <a href="#">zie meer over dit</a>
+      <div class="card-footer text-bold">
+           <b> vind plaats op Januari 2020 </b>
       </div>
     </div>
 
@@ -179,7 +184,7 @@
   </div>
 
   <!-- Sidebar Widgets Column -->
-  <div class="col-md-4" style="padding-top:68px;">
+  <div class="col-md-4" style="padding-top:93px;">
 
     <!-- Search Widget -->
     <div class="card my-4">

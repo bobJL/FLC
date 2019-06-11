@@ -137,7 +137,7 @@
       <img class="card-img-top" src="http://placehold.it/750x300" alt="Card image cap">
       <div class="card-body">
         <h2 class="card-title">evenement naam</h2>
-        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis aliquid atque, nulla? Quos cum ex quis soluta, a laboriosam. Dicta expedita corporis animi vero voluptate voluptatibus possimus, veniam magni quis!</p>
+        <p class="card-text "style="font-size:2em;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis aliquid atque, nulla? Quos cum ex quis soluta, a laboriosam. Dicta expedita corporis animi vero voluptate voluptatibus possimus, veniam magni quis!</p>
         <a href="#" class="btn btn-primary">lees meer &rarr;</a>
       </div>
       <div class="card-footer ">
@@ -150,7 +150,7 @@
       <img class="card-img-top" src="http://placehold.it/750x300" alt="Card image cap">
       <div class="card-body">
         <h2 class="card-title">evenement naam</h2>
-        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis aliquid atque, nulla? Quos cum ex quis soluta, a laboriosam. Dicta expedita corporis animi vero voluptate voluptatibus possimus, veniam magni quis!</p>
+        <p class="card-text"style="font-size:2em;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis aliquid atque, nulla? Quos cum ex quis soluta, a laboriosam. Dicta expedita corporis animi vero voluptate voluptatibus possimus, veniam magni quis!</p>
         <a href="#" class="btn btn-primary">lees meer &rarr;</a>
       </div>
       <div class="card-footer text-bold">
@@ -163,7 +163,7 @@
       <img class="card-img-top" src="http://placehold.it/750x300" alt="Card image cap">
       <div class="card-body">
         <h2 class="card-title">evenement naam</h2>
-        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis aliquid atque, nulla? Quos cum ex quis soluta, a laboriosam. Dicta expedita corporis animi vero voluptate voluptatibus possimus, veniam magni quis!</p>
+        <p class="card-text"style="font-size:2em;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis aliquid atque, nulla? Quos cum ex quis soluta, a laboriosam. Dicta expedita corporis animi vero voluptate voluptatibus possimus, veniam magni quis!</p>
         <a href="#" class="btn btn-primary">lees meer &rarr;</a>
       </div>
       <div class="card-footer text-bold">
@@ -171,7 +171,7 @@
       </div>
     </div>
 
-    <!-- Pagination -->
+    <!-- Pagination 
     <ul class="pagination justify-content-center mb-4">
       <li class="page-item">
         <a class="page-link" href="#">&larr; Older</a>
@@ -180,7 +180,7 @@
         <a class="page-link" href="#">Newer &rarr;</a>
       </li>
     </ul>
-
+-->
   </div>
 
   <!-- Sidebar Widgets Column -->

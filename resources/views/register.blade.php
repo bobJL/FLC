@@ -101,16 +101,16 @@
         <h3 class=""> FCL evenement planner</h3>
         <ul class="nav nav-tabs nav-tabs-dark">
             <li class="nav-item-dark">
-                 <a class="nav-link  alert-link" href="home">evenement pagina</a>
+                 <a class="nav-link alert-link" href="home">evenement pagina</a>
             </li>
              <li class="nav-item-dark">
-                  <a class="nav-link active alert-link" href="login">login</a>
+                  <a class="nav-link alert-link" href="login">login</a>
              </li>
              <li class="nav-item">
                   <a class="nav-link alert-link" href="beheer">beheer pagina</a>
              </li>
              <li class="nav-item">
-                  <a class="nav-link alert-link" href="register">registreer als vrijwilliger</a>
+                  <a class="nav-link alert-link active" href="register">registreer als vrijwilliger</a>
              </li>
         </ul>
 		<span class="line"></span>
@@ -121,25 +121,71 @@
 
         
                  <!-- Page Content -->
-  <div class="container" style="padding-top: 150px;">
+  <div class="container" style="padding-top: 250px;">
 
-        <div class="row">
-        <form>
-  <div class="form-group">
-    <label for="exampleInputEmail1">Email address</label>
-    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
-    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
-  </div>
-  <div class="form-group">
-    <label for="exampleInputPassword1">Password</label>
-    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
-  </div>
-  
-  <button type="submit" class="btn btn-primary">login</button>
-</form>
+<div class="row">
+
+<form class="needs-validation" novalidate>
+  <div class="form-row">
+    <div class="col-md-4 mb-3">
+      <label for="validationTooltip01">First name</label>
+      <input type="text" class="form-control" id="validationTooltip01" placeholder="First name" value="Mark" required>
+      <div class="valid-tooltip">
+        Looks good!
+      </div>
+    </div>
+    <div class="col-md-4 mb-3">
+      <label for="validationTooltip02">Last name</label>
+      <input type="text" class="form-control" id="validationTooltip02" placeholder="Last name" value="Otto" required>
+      <div class="valid-tooltip">
+        Looks good!
+      </div>
+    </div>
+    <div class="col-md-4 mb-3">
+      <label for="validationTooltipUsername">Username</label>
+      <div class="input-group">
+        <div class="input-group-prepend">
+          <span class="input-group-text" id="validationTooltipUsernamePrepend">@</span>
         </div>
+        <input type="text" class="form-control" id="validationTooltipUsername" placeholder="Username" aria-describedby="validationTooltipUsernamePrepend" required>
+        <div class="invalid-tooltip">
+          Please choose a unique and valid username.
+        </div>
+      </div>
+    </div>
   </div>
-  <footer class="py-5 bg-dark" style="margin-top:300px;">
+  <div class="form-row">
+    <div class="col-md-6 mb-3">
+      <label for="validationTooltip03">City</label>
+      <input type="text" class="form-control" id="validationTooltip03" placeholder="City" required>
+      <div class="invalid-tooltip">
+        Please provide a valid city.
+      </div>
+    </div>
+    <div class="col-md-3 mb-3">
+      <label for="validationTooltip04">State</label>
+      <input type="text" class="form-control" id="validationTooltip04" placeholder="State" required>
+      <div class="invalid-tooltip">
+        Please provide a valid state.
+      </div>
+    </div>
+    <div class="col-md-3 mb-3">
+      <label for="validationTooltip05">Zip</label>
+      <input type="text" class="form-control" id="validationTooltip05" placeholder="Zip" required>
+      <div class="invalid-tooltip">
+        Please provide a valid zip.
+      </div>
+    </div>
+  </div>
+  <button class="btn btn-primary" type="submit">Submit form</button>
+</form>
+
+                </div>
+
+               
+           
+        </div>
+        <footer class="py-5 bg-dark" style="margin-top:100px;">
     <div class="container">
       <p class="m-0 text-center text-white">Copyright &copy;FCL 2019</p>
     </div>

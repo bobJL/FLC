@@ -140,7 +140,7 @@
         <p class="card-text "style="font-size:2em;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis aliquid atque, nulla? Quos cum ex quis soluta, a laboriosam. Dicta expedita corporis animi vero voluptate voluptatibus possimus, veniam magni quis!</p>
         <a href="#" class="btn btn-primary">lees meer &rarr;</a>
       </div>
-      <div class="card-footer ">
+      <div class="card-footer " style="font-size:1.5em;">
           <b>  vind plaats op Januari 2020 </b>
       </div>
     </div>
@@ -153,7 +153,7 @@
         <p class="card-text"style="font-size:2em;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis aliquid atque, nulla? Quos cum ex quis soluta, a laboriosam. Dicta expedita corporis animi vero voluptate voluptatibus possimus, veniam magni quis!</p>
         <a href="#" class="btn btn-primary">lees meer &rarr;</a>
       </div>
-      <div class="card-footer text-bold">
+      <div class="card-footer text-bold" style="font-size:1.5em;">
           <b>  vind plaats op Januari 2020 </b>
       </div>
     </div>
@@ -166,7 +166,7 @@
         <p class="card-text"style="font-size:2em;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis aliquid atque, nulla? Quos cum ex quis soluta, a laboriosam. Dicta expedita corporis animi vero voluptate voluptatibus possimus, veniam magni quis!</p>
         <a href="#" class="btn btn-primary">lees meer &rarr;</a>
       </div>
-      <div class="card-footer text-bold">
+      <div class="card-footer text-bold" style="font-size:1.5em;">
            <b> vind plaats op Januari 2020 </b>
       </div>
     </div>

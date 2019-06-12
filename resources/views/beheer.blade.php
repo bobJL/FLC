@@ -95,6 +95,10 @@
                 font-size:2em;
                 
             }
+
+            .header-color{
+                
+            }
             
 
         </style>
@@ -103,7 +107,7 @@
    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top ">
     <div class="container">
         <div class="same"> 
-        <h3 class=""> FCL evenement planner</h3>
+        <h3 class="header-color"> FCL evenement planner</h3>
         <ul class="nav nav-tabs nav-tabs-dark">
             <li class="nav-item-dark">
                  <a class="nav-link  alert-link" href="home">evenement pagina</a>
@@ -126,7 +130,7 @@
 
         
                  <!-- Page Content -->
-  <div class="container" style="padding-top: 150px;">
+  <div class="container" style="padding-top: 150px; font-size:1.5em;">
   <form>
   <div class="form-group">
     <label for="exampleFormControlInput1">Email address</label>

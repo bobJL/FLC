@@ -125,7 +125,7 @@
 
 <div class="row">
 
-<form class="needs-validation" novalidate>
+<form class="needs-validation" novalidate style="font-size:1.5em;">
   <div class="form-row">
     <div class="col-md-4 mb-3">
       <label for="validationTooltip01">First name</label>
